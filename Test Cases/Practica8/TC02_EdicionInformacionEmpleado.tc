@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC02_EdicionInformacionEmpleado</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>35b16a2e-d4bd-4505-b343-5ea0c4afe77b</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>935ac04a-47ba-455e-b75f-6796f0eb926f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ab3eeebd-fdef-4e75-a2b4-2732c8ce91a6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1813009c-a5d6-4b08-968b-3344d4578b60</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Juana'</defaultValue>
+      <description></description>
+      <id>935ac04a-47ba-455e-b75f-6796f0eb926f</id>
+      <masked>false</masked>
+      <name>firstName2</name>
+   </variable>
+   <variable>
+      <defaultValue>'Mendo'</defaultValue>
+      <description></description>
+      <id>ab3eeebd-fdef-4e75-a2b4-2732c8ce91a6</id>
+      <masked>false</masked>
+      <name>lastName2</name>
+   </variable>
+   <variable>
+      <defaultValue>'12000'</defaultValue>
+      <description></description>
+      <id>1813009c-a5d6-4b08-968b-3344d4578b60</id>
+      <masked>false</masked>
+      <name>Salary2</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC08_iniciarSesion</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>080475d9-cffe-4e3e-b471-9d546803025f</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>796245ad-018a-41cd-8877-553a68fc1b35</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>4a7281eb-e090-4200-8aee-122999b8afa8</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'menvic'</defaultValue>
+      <description></description>
+      <id>796245ad-018a-41cd-8877-553a68fc1b35</id>
+      <masked>false</masked>
+      <name>userName</name>
+   </variable>
+   <variable>
+      <defaultValue>'h1QkcHMxUvFccyXAlIpiJg=='</defaultValue>
+      <description></description>
+      <id>4a7281eb-e090-4200-8aee-122999b8afa8</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
+</TestCaseEntity>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TC03_edicionInformacionEmpleadoDatosIncompletos</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>82a74107-b78e-4d30-8a75-734cc3f06571</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>70d9a7e4-6817-4684-9c15-89b016cb2d71</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>078102e9-1d2d-432e-be8b-23a4aa5e20e6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>1ddf7244-def5-467d-8e72-c094ba88d151</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Cierra'</defaultValue>
+      <description></description>
+      <id>70d9a7e4-6817-4684-9c15-89b016cb2d71</id>
+      <masked>false</masked>
+      <name>firstName</name>
+   </variable>
+   <variable>
+      <defaultValue>'Vega'</defaultValue>
+      <description></description>
+      <id>078102e9-1d2d-432e-be8b-23a4aa5e20e6</id>
+      <masked>false</masked>
+      <name>lastName</name>
+   </variable>
+   <variable>
+      <defaultValue>'10000'</defaultValue>
+      <description></description>
+      <id>1ddf7244-def5-467d-8e72-c094ba88d151</id>
+      <masked>false</masked>
+      <name>salary</name>
+   </variable>
+</TestCaseEntity>

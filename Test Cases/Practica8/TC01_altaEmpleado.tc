@@ -42,14 +42,14 @@
       <variableId>cdbd3440-0e78-432a-a615-8cbd5d0b08ea</variableId>
    </variableLinks>
    <variable>
-      <defaultValue>'Robert'</defaultValue>
+      <defaultValue>'Roberto'</defaultValue>
       <description></description>
       <id>c0b33ea0-8bb3-49b0-a644-ab79435ce474</id>
       <masked>false</masked>
       <name>firstName</name>
    </variable>
    <variable>
-      <defaultValue>'mendoza'</defaultValue>
+      <defaultValue>'Mendoza'</defaultValue>
       <description></description>
       <id>fd577e7e-b1b1-40ca-ab00-c141af8c1594</id>
       <masked>false</masked>
@@ -70,7 +70,7 @@
       <name>age</name>
    </variable>
    <variable>
-      <defaultValue>'10000'</defaultValue>
+      <defaultValue>'150000'</defaultValue>
       <description></description>
       <id>00e89cb8-0ee6-4423-a909-286ab023492f</id>
       <masked>false</masked>

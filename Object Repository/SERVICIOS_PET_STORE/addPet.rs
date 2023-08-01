@@ -78,14 +78,14 @@
    <socketTimeout>0</socketTimeout>
    <useServiceInfoFromWsdl>true</useServiceInfoFromWsdl>
    <variables>
-      <defaultValue>'perro3'</defaultValue>
+      <defaultValue>'JR y DUQUE'</defaultValue>
       <description></description>
       <id>000a9d5f-7e98-41aa-9867-fc9a2c745e6f</id>
       <masked>false</masked>
       <name>namePet</name>
    </variables>
    <variables>
-      <defaultValue>12347</defaultValue>
+      <defaultValue>1958</defaultValue>
       <description></description>
       <id>3b531fa4-262a-4bf8-ae0f-587e6fa9831e</id>
       <masked>false</masked>

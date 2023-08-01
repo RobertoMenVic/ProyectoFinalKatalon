@@ -37,7 +37,7 @@ WebUI.click(findTestObject('Object Repository/PRACTICA8/MENU1/menu', [('menu') :
 
 //WebUI.executeJavaScript('document.body.style.zoom=\'60%\'', null)
 Robot robot = new Robot()
-//CustomKeywords.'AccionesNavegador.zoomOUt'(12)
+//CustomKeywords.'AccionesNavegador.zoomOUt'(6)
 for (int i = 0; i < 6; i++) {
     robot.keyPress(KeyEvent.VK_CONTROL)
 

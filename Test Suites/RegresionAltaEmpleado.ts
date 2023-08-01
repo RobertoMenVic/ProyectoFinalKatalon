@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>RegresionAltaEmpleado</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>1</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>46cdf035-7226-4dea-a956-91b95ce6d3a6</testSuiteGuid>
+   <testCaseLink>
+      <guid>04b6f526-c415-469e-ab9a-a155871d82a6</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Practica8/TC01_altaEmpleado</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>c72c357f-6496-4841-8fea-1eabe86a5ddb</id>
+         <iterationEntity>
+            <iterationType>RANGE</iterationType>
+            <value>1-2</value>
+         </iterationEntity>
+         <testDataId>Data Files/Empleados/registrarEmpleado</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>firstName</value>
+         <variableId>c0b33ea0-8bb3-49b0-a644-ab79435ce474</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>lastName</value>
+         <variableId>fd577e7e-b1b1-40ca-ab00-c141af8c1594</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>email</value>
+         <variableId>745c9132-08a2-4fbf-a3d7-4a11ef844f07</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>age</value>
+         <variableId>741653c7-dfb5-43d8-90e3-8701c9fe0c1c</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>salary</value>
+         <variableId>00e89cb8-0ee6-4423-a909-286ab023492f</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>c72c357f-6496-4841-8fea-1eabe86a5ddb</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>depart</value>
+         <variableId>cdbd3440-0e78-432a-a615-8cbd5d0b08ea</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

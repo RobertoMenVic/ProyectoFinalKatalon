@@ -17,6 +17,8 @@ import com.kms.katalon.core.testobject.TestObject
 import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords
 
+import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
+
 import internal.GlobalVariable
 
 import org.openqa.selenium.WebElement
@@ -41,20 +43,24 @@ import java.awt.Robot as Robot
 import java.awt.event.KeyEvent as KeyEvent
 
 
-class AccionesNavegador {
+public class AccionesNavegador {
 	/**
 	 * Refresh browser
 	 */
 	@Keyword
 	def zoomOUt(int iteracionZoomOut) {
 
-		Robot robot = new Robot()
+		Robot robot = new Robot();
 
 		for (int i = 0; i < iteracionZoomOut; i++) {
-			robot.keyPress(KeyEvent.VK_CONTROL)
-			robot.keyPress(KeyEvent.VK_SUBTRACT)
-			robot.keyPress(KeyEvent.VK_CONTROL)
-			robot.keyPress(KeyEvent.VK_SUBTRACT)
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_SUBTRACT);
+			robot.keyPress(KeyEvent.VK_CONTROL);
+			robot.keyPress(KeyEvent.VK_SUBTRACT);
+		
+			
+			WebUI.switchToDefaultContent();
+			
 		}
 	}
 
